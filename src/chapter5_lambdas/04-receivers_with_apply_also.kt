@@ -49,6 +49,7 @@ fun alphabetAlso() : String {
     }.toString()
 }
 
+// --> Check also file "StandardKt__StandardKt"
 
 fun main() {
     println(alphabetWith())
