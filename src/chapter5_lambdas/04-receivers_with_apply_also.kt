@@ -15,7 +15,7 @@ fun myWith(myObject: StringBuilder, lamda: (StringBuilder) -> String) : String  
     return lamda(myObject)
 }
 
-// The apply function works almost exactly the same as with ; the main difference is that apply always returns the object passed to it as an argument (in other words, the receiver object)
+// The apply function works almost exactly the same as with ; The main difference is that apply returns the receiver itself, but with returns the result of calling the lambda.
 // this is useful is when you’re creating an instance of an object and need to initialize some properties right away
 
 fun alphabetApply() : String {
